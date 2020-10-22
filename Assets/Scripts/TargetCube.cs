@@ -50,6 +50,6 @@ public class TargetCube : Target
             Rotate(rotationAmount);
         }
 
-        effectScript.Play(hit, hitSound, hitEffect, effectDuration);
+        //effectScript.Play(hit, hitSound, hitEffect, effectDuration);
     }
 }
