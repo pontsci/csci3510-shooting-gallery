@@ -9,6 +9,8 @@ public class Gun : MonoBehaviour
     private Camera fpsCamera;
     private float nextTimeToFire;
 
+    public ParticleSystem muzzleFlash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,10 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        if(muzzleFlash != null)
+        {
+            muzzleFlash.Play();
+        }
         RaycastHit hit;
         if(Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range))
         {

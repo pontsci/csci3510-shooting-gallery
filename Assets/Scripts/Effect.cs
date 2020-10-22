@@ -2,17 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Effect : MonoBehaviour
+public class Effect : Target
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Process(RaycastHit hit)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //effectScript.Play(hit, hitSound, hitEffect, effectDuration);
+        Destroy(target);
     }
 }
