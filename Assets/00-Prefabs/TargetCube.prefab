@@ -140,11 +140,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a763e8c9b523d4aac03d3b18f4bbe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  effectsManager: {fileID: 0}
-  hitEffect: {fileID: 0}
-  effectDuration: 0.1
-  hitSound: {fileID: 0}
+  target: {fileID: 229748961577611130}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
+  hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
+  effectDuration: 0.2
+  hitSound: {fileID: 8300000, guid: 9789da9a0c1c7ab49b4696d5aa53ed20, type: 3}
 --- !u!1 &6369605883473152690
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a763e8c9b523d4aac03d3b18f4bbe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  effectsManager: {fileID: 0}
-  hitEffect: {fileID: 0}
-  effectDuration: 0.1
-  hitSound: {fileID: 0}
+  target: {fileID: 229748961577611130}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
+  hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
+  effectDuration: 0.2
+  hitSound: {fileID: 8300000, guid: 9789da9a0c1c7ab49b4696d5aa53ed20, type: 3}
