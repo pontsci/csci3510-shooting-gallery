@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class TargetCube : Target
 {
@@ -33,7 +35,6 @@ public class TargetCube : Target
     {
         if (!rotationOn)
         {
-            Debug.Log("init rotation for: " + target.name);
             rotationOn = true;
             rotationAmount = degrees;
             currentRotationAmount = 0f;
@@ -43,7 +44,6 @@ public class TargetCube : Target
 
     public override void Process (RaycastHit hit)
     {
-        Debug.Log("In Process, hit: " + gameObject.tag);
 
         if(gameObject.tag == "Target")
         {
