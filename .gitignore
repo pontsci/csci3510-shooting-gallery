@@ -9,7 +9,6 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-**/Assets/Sci-FiWeapons/
 [Bb]uild.zip
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
