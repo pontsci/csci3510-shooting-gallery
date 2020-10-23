@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 9188432142661690975}
-  effectsManager: {fileID: 0}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
   hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
   effectDuration: 0.1
   hitSound: {fileID: 8300000, guid: 4a2c783ce9ea8ab499b111bc135bb484, type: 3}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 9188432142661690975}
-  effectsManager: {fileID: 0}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
   hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
   effectDuration: 0.1
   hitSound: {fileID: 8300000, guid: 4a2c783ce9ea8ab499b111bc135bb484, type: 3}

@@ -29,6 +29,7 @@ public class Gun : MonoBehaviour
         if(ready && Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            nextTimeToFire = Time.time + 0.3f;
         }
     }
 
@@ -53,7 +54,7 @@ public class Gun : MonoBehaviour
                 target.Process(hit);
             }
 
-            nextTimeToFire = Time.time + 1f;
+            
         }
     }
 }
