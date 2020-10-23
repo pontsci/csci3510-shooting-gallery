@@ -39,6 +39,8 @@ public class TargetCube : Target
             rotationAmount = degrees;
             currentRotationAmount = 0f;
             rotation = new Vector3(0, degrees, 0);
+            MoveTargetCube targetMoveScript = gameObject.GetComponentInParent<MoveTargetCube>();
+            targetMoveScript.IncreaseSpeed(2f);
         }
     }
 

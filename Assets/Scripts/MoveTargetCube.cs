@@ -30,4 +30,9 @@ public class MoveTargetCube : MonoBehaviour
             }
         }
     }
+
+    public void IncreaseSpeed(float value)
+    {
+        moveAmount += value;
+    }
 }

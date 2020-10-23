@@ -8,6 +8,7 @@ TagManager:
   - EffectsManager
   - Head
   - Bomb
+  - TargetCube
   layers:
   - Default
   - TransparentFX
