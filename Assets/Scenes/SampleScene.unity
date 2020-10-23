@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 1102082993}
   - component: {fileID: 1102082992}
   - component: {fileID: 1102082991}
+  - component: {fileID: 1102082995}
   m_Layer: 0
   m_Name: Bottom
   m_TagString: Untagged
@@ -682,6 +683,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102082989}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1102082995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102082989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9ca643a023544fbe065aac99758a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1102082989}
+  effectsManager: {fileID: 787290533}
+  hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
+  effectDuration: 0.1
+  hitSound: {fileID: 8300000, guid: a0b5c9c11746cd04f8f11dcd8e60bfe3, type: 3}
+  impactForce: 400
 --- !u!4 &1535520388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -733,6 +752,7 @@ GameObject:
   - component: {fileID: 1836425256}
   - component: {fileID: 1836425255}
   - component: {fileID: 1836425254}
+  - component: {fileID: 1836425258}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -832,6 +852,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836425252}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1836425258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836425252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9ca643a023544fbe065aac99758a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1836425252}
+  effectsManager: {fileID: 787290533}
+  hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
+  effectDuration: 0.1
+  hitSound: {fileID: 8300000, guid: a0b5c9c11746cd04f8f11dcd8e60bfe3, type: 3}
+  impactForce: 400
 --- !u!1 &1886777613
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +883,7 @@ GameObject:
   - component: {fileID: 1886777617}
   - component: {fileID: 1886777616}
   - component: {fileID: 1886777615}
+  - component: {fileID: 1886777619}
   m_Layer: 0
   m_Name: Middle
   m_TagString: Untagged
@@ -944,6 +983,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886777613}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1886777619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886777613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9ca643a023544fbe065aac99758a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1886777613}
+  effectsManager: {fileID: 787290533}
+  hitEffect: {fileID: 4393358160598618215, guid: f194e07f850c0e74a936b464ebf20d6b, type: 3}
+  effectDuration: 0.1
+  hitSound: {fileID: 8300000, guid: a0b5c9c11746cd04f8f11dcd8e60bfe3, type: 3}
+  impactForce: 400
 --- !u!1 &1893890369
 GameObject:
   m_ObjectHideFlags: 0
