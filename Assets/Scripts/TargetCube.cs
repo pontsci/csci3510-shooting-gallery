@@ -49,7 +49,7 @@ public class TargetCube : Target
         {
             Rotate(rotationAmount);
         }
-
+        audioSource.PlayOneShot(hitSound);
         effectScript.Play(hit, hitSound, hitEffect, effectDuration);
     }
 }

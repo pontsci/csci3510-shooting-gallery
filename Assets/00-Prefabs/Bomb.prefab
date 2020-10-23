@@ -110,9 +110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2791790469246389306}
-  effectsManager: {fileID: 0}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
   hitEffect: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
-  effectDuration: 3
+  effectDuration: 7
   hitSound: {fileID: 8300000, guid: ed20ee6124f7e6d4a9bd38c47bcc3c42, type: 3}
 --- !u!1 &2791790468525852504
 GameObject:
@@ -223,9 +223,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2791790469246389306}
-  effectsManager: {fileID: 0}
+  effectsManager: {fileID: 8496571400380694913, guid: be41ff9738e4b5042b90a62fc2c988dd, type: 3}
   hitEffect: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
-  effectDuration: 3
+  effectDuration: 7
   hitSound: {fileID: 8300000, guid: ed20ee6124f7e6d4a9bd38c47bcc3c42, type: 3}
 --- !u!1 &2791790469246389306
 GameObject:

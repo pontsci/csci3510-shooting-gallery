@@ -43,6 +43,7 @@ public class Diamond : Target
     public override void Process(RaycastHit hit)
     {
         IncRotation(250);
+        audioSource.PlayOneShot(hitSound);
         effectScript.Play(hit, hitSound, hitEffect, effectDuration);
     }
 }

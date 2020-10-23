@@ -11,9 +11,13 @@ public class Gun : MonoBehaviour
 
     public ParticleSystem muzzleFlash;
 
+    public AudioClip[] gunshots = new AudioClip[4];
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = gameObject.GetComponent<AudioSource>();
         fpsCamera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
         nextTimeToFire = 0.0f;
     }
@@ -30,6 +34,10 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        int rand = Random.Range(0, 4);
+        Debug.Log("Gunshot at index: " + rand);
+        audioSource.PlayOneShot(gunshots[rand]);
+        
         if(muzzleFlash != null)
         {
             muzzleFlash.Play();

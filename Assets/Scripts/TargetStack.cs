@@ -15,6 +15,7 @@ public class TargetStack : Target
 
     public override void Process(RaycastHit hit)
     {
+        audioSource.PlayOneShot(hitSound);
         targetRigidBody.AddForce(-hit.normal * impactForce);
         effectScript.Play(hit, hitSound, hitEffect, effectDuration);
     }

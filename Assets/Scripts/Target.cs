@@ -10,12 +10,15 @@ public class Target : MonoBehaviour
 
     public AudioClip hitSound;
 
+    protected AudioSource audioSource;
+
     protected Effect effectScript;
 
     private void Awake()
     {
         //init must occur in awake method
         effectScript = effectsManager.GetComponent<Effect>();
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     public virtual void Process(RaycastHit hit)

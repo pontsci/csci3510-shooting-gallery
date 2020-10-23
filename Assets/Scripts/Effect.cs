@@ -22,6 +22,6 @@ public class Effect : MonoBehaviour
             particleEffect = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(particleEffect, effectDuration);
         }
-        effectAudio.PlayOneShot(hitSound, volume);
+        //effectAudio.PlayOneShot(hitSound, volume);
     }
 }
