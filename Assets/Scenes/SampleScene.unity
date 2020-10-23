@@ -3788,6 +3788,10 @@ PrefabInstance:
       propertyPath: effectsManager
       value: 
       objectReference: {fileID: 787290533}
+    - target: {fileID: 2791790468420863681, guid: 6b69b823494bb634384d6a978dbb1342, type: 3}
+      propertyPath: effectDuration
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2791790468420863692, guid: 6b69b823494bb634384d6a978dbb1342, type: 3}
       propertyPath: m_TagString
       value: Head
@@ -3800,6 +3804,10 @@ PrefabInstance:
       propertyPath: effectsManager
       value: 
       objectReference: {fileID: 787290533}
+    - target: {fileID: 2791790468525852509, guid: 6b69b823494bb634384d6a978dbb1342, type: 3}
+      propertyPath: effectDuration
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2791790469246389306, guid: 6b69b823494bb634384d6a978dbb1342, type: 3}
       propertyPath: m_Name
       value: Bomb
