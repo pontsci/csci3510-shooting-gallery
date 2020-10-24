@@ -13,12 +13,13 @@ public class Bomb : Target
             effectScript.Play(hit, hitSound, hitEffect, effectDuration);
             if (gameObject.tag == "Head")
             {
-                GameObject bombBody = GameObject.FindGameObjectWithTag("Bomb");
+                GameObject bombBody = gameObject.transform.parent.GetChild(1).gameObject;
+                //GameObject bombBody = GameObject.FindGameObjectWithTag("Bomb");
                 bombBody.GetComponent<Renderer>().enabled = false;
             }
             else
             {
-                GameObject bombHead = GameObject.FindGameObjectWithTag("Head");
+                GameObject bombHead = gameObject.transform.parent.GetChild(0).gameObject;
                 bombHead.GetComponent<Renderer>().enabled = false;
             }
         }

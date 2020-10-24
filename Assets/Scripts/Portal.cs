@@ -6,12 +6,16 @@ public class Portal : MonoBehaviour
 {
     public GameObject fpsController;
     public GameObject terrain;
+    public AudioClip portalSound;
+
+    AudioSource audioSource;
 
     SpawnPoint spawnPoint;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = gameObject.GetComponent<AudioSource>();
         spawnPoint = new SpawnPoint();
     }
 
@@ -21,6 +25,7 @@ public class Portal : MonoBehaviour
         {
             Vector3 position = spawnPoint.Generate(other.gameObject, terrain);
             MoveTo(other.gameObject, position);
+            audioSource.PlayOneShot(portalSound);
         }
     }
 
