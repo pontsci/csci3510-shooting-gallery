@@ -6426,6 +6426,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1338099722858408719, guid: cd770a7f5f8040149937ca8c29fd0636, type: 3}
+      propertyPath: m_MouseLook.XSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338099722858408719, guid: cd770a7f5f8040149937ca8c29fd0636, type: 3}
+      propertyPath: m_MouseLook.YSensitivity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1338099722869169903, guid: cd770a7f5f8040149937ca8c29fd0636, type: 3}
       propertyPath: m_Name
       value: FPSController
